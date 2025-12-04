@@ -3,7 +3,7 @@
   muvmRoot ? "/run/muvm/x86_64-linux",
 }:
 
-pkgs.buildFHSUserEnvBubblewrap rec {
+pkgs.buildFHSEnvBubblewrap rec {
   name = "vivado-fhs";
 
   targetPkgs = pkgs': [
